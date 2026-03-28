@@ -1,0 +1,24 @@
+{
+  "name": "shastra-clips",
+  "version": "1.0.0",
+  "description": "Clips para A la Luz del Shastra - YouTube Shorts / Instagram Reels",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:30": "remotion render src/index.ts Clip30s out/clip30s.mp4",
+    "render:45": "remotion render src/index.ts Clip45s out/clip45s.mp4",
+    "render:60": "remotion render src/index.ts Clip60s out/clip60s.mp4",
+    "render:all": "npm run render:30 && npm run render:45 && npm run render:60"
+  },
+  "keywords": ["remotion", "video", "shastra", "clips"],
+  "author": "Jagannatha Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.436",
+    "@remotion/player": "^4.0.436",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.436",
+    "typescript": "^5.9.3"
+  }
+}
