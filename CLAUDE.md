@@ -1,4 +1,4 @@
-# Shastra Clips - Remotion Project
+# A la luz del Shastra - como hacer Clips - 
 
 Proyecto para generar clips verticales (1080x1920) para YouTube Shorts e Instagram Reels.
 
